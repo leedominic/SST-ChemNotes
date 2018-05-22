@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36397EE320B3BD3100E90D0E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36397EE220B3BD3100E90D0E /* ThirdViewController.swift */; };
+		36397EE520B3BD7600E90D0E /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36397EE420B3BD7600E90D0E /* FourthViewController.swift */; };
 		367BF75D20B2C1DB00DCA0C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF75C20B2C1DB00DCA0C5 /* AppDelegate.swift */; };
 		367BF75F20B2C1DB00DCA0C5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF75E20B2C1DB00DCA0C5 /* FirstViewController.swift */; };
 		367BF76120B2C1DB00DCA0C5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367BF76020B2C1DB00DCA0C5 /* SecondViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36397EE220B3BD3100E90D0E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		36397EE420B3BD7600E90D0E /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		367BF75920B2C1DB00DCA0C5 /* SST ChemNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SST ChemNotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		367BF75C20B2C1DB00DCA0C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		367BF75E20B2C1DB00DCA0C5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				367BF75C20B2C1DB00DCA0C5 /* AppDelegate.swift */,
 				367BF75E20B2C1DB00DCA0C5 /* FirstViewController.swift */,
 				367BF76020B2C1DB00DCA0C5 /* SecondViewController.swift */,
+				36397EE220B3BD3100E90D0E /* ThirdViewController.swift */,
+				36397EE420B3BD7600E90D0E /* FourthViewController.swift */,
 				367BF76220B2C1DB00DCA0C5 /* Main.storyboard */,
 				367BF76520B2C1DC00DCA0C5 /* Assets.xcassets */,
 				367BF76720B2C1DC00DCA0C5 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				367BF76120B2C1DB00DCA0C5 /* SecondViewController.swift in Sources */,
 				367BF75D20B2C1DB00DCA0C5 /* AppDelegate.swift in Sources */,
+				36397EE320B3BD3100E90D0E /* ThirdViewController.swift in Sources */,
 				367BF75F20B2C1DB00DCA0C5 /* FirstViewController.swift in Sources */,
+				36397EE520B3BD7600E90D0E /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -50,7 +50,7 @@
         <!--Item-->
         <scene sceneID="ie0-vn-Upi">
             <objects>
-                <viewController id="T60-zI-wQ3" sceneMemberID="viewController">
+                <viewController id="T60-zI-wQ3" customClass="ThirdViewController" customModule="SST_ChemNotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o60-Qo-sGp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,6 +100,22 @@
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="QvL-gf-kuB">
+            <objects>
+                <viewController id="EBX-uD-5Ly" customClass="FourthViewController" customModule="SST_ChemNotes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QSs-Ch-9ox">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ELK-ex-7ZG"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="yL0-8K-4I4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jkc-o7-YjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1606" y="359"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -113,6 +129,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="T60-zI-wQ3" kind="relationship" relationship="viewControllers" id="6h3-wS-nra"/>
+                        <segue destination="EBX-uD-5Ly" kind="relationship" relationship="viewControllers" id="lwa-32-BCg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
