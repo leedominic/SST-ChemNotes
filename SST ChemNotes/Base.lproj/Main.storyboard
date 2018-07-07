@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Periodic Table-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="SST_ChemNotes" customModuleProvider="target" sceneMemberID="viewController">
@@ -41,13 +41,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Periodic Table" image="outline_table_chart_black_24pt_1x" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--Item-->
+        <!--Formulae-->
         <scene sceneID="ie0-vn-Upi">
             <objects>
                 <viewController id="T60-zI-wQ3" customClass="ThirdViewController" customModule="SST_ChemNotes" customModuleProvider="target" sceneMemberID="viewController">
@@ -57,13 +57,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ObL-Wz-K3Q"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="5iV-aa-7hP"/>
+                    <tabBarItem key="tabBarItem" title="Formulae" id="5iV-aa-7hP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XKb-rA-3gg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1607" y="-321"/>
         </scene>
-        <!--Second-->
+        <!--Notes-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="SST_ChemNotes" customModuleProvider="target" sceneMemberID="viewController">
@@ -94,13 +94,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Notes" image="outline_notes_black_24pt_1x" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="360"/>
         </scene>
-        <!--Item-->
+        <!--About-->
         <scene sceneID="QvL-gf-kuB">
             <objects>
                 <viewController id="EBX-uD-5Ly" customClass="FourthViewController" customModule="SST_ChemNotes" customModuleProvider="target" sceneMemberID="viewController">
@@ -110,7 +110,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ELK-ex-7ZG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="yL0-8K-4I4"/>
+                    <tabBarItem key="tabBarItem" title="About" image="outline_info_black_24pt_1x" id="yL0-8K-4I4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jkc-o7-YjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,7 +138,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="outline_info_black_24pt_1x" width="24" height="24"/>
+        <image name="outline_notes_black_24pt_1x" width="24" height="24"/>
+        <image name="outline_table_chart_black_24pt_1x" width="24" height="24"/>
     </resources>
 </document>
